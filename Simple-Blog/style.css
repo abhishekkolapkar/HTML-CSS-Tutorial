@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header section styling */
+
+h1 {
+  margin: 25px 150px;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+/* navigation menu styling */
+.nav {
+  width: 100%;
+  background-color: #b37b63;
+  color: white;
+}
+.nav ul {
+  list-style-type: none;
+  margin: 0 100px;
+}
+.nav li {
+  width: 200px;
+  text-align: center;
+  padding: 15px 30px;
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline-block;
+}
+.nav li:hover {
+  background-color: coral;
+  font-weight: 600;
+}
+
+/* content section styling */
+
+.post {
+  width: 55%;
+  height: 600px;
+  margin: 15px 60px 15px 150px;
+  float: left;
+  border-right: 2px solid lightgray;
+}
+.post h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.post img {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.post p {
+  margin: 0 40px 10px 0;
+}
+
+/* aside section styling */
+
+.photo {
+  margin: 15px 30px 15px 15px;
+}
+.photo h2 {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.photo img {
+  margin: 0 5px 5px 0;
+}
